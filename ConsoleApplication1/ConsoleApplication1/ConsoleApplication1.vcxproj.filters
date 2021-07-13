@@ -21,9 +21,15 @@
     <ClCompile Include="Employer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Massive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Employer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Massive.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

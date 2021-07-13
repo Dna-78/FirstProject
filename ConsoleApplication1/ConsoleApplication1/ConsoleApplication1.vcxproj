@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="Employer.cpp" />
+    <ClCompile Include="Massive.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Employer.h" />
+    <ClInclude Include="Massive.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
