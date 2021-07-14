@@ -1,6 +1,7 @@
-﻿#include <iostream>
-#include "Massive.h"
-#include "Massive.cpp"
+﻿//#include <iostream>
+//#include "Massive.h"
+//#include "Massive.cpp"
+#include "BinaryTree.h"
 
 //#include "Employer.h"
 //using namespace std;
@@ -17,19 +18,24 @@
 //	}
 //}
 
+//int main()
+//{
+//	try
+//	{
+//		ArrayTemp<int> myMass(5);
+//		cout << myMass << endl;
+//		myMass.Insert(1, 5);
+//		cout << myMass << endl;
+//		myMass.Remove(3);
+//		cout << myMass << endl;
+//	}
+//	catch (exception& exp)
+//	{
+//		cout << exp.what() << endl;
+//	}
+//}
+
 int main()
 {
-	try
-	{
-		ArrayTemp<int> myMass(5);
-		cout << myMass << endl;
-		myMass.Insert(1, 5);
-		cout << myMass << endl;
-		myMass.Remove(3);
-		cout << myMass << endl;
-	}
-	catch (exception& exp)
-	{
-		cout << exp.what() << endl;
-	}
+
 }
