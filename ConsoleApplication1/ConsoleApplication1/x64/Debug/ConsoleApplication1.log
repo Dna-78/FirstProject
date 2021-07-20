@@ -1,3 +1,4 @@
-﻿  ConsoleApplication1.cpp
-C:\Users\Взрослая академия\source\repos\FirstProject\ConsoleApplication1\ConsoleApplication1\Massive.h(30): warning C4715: 'operator<<': not all control paths return a value
-  ConsoleApplication1.vcxproj -> C:\Users\Взрослая академия\Source\Repos\FirstProject\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+﻿  BinaryTree.cpp
+  ConsoleApplication1.cpp
+  Generating Code...
+  ConsoleApplication1.vcxproj -> C:\Users\Взрослая академия\source\repos\FirstProject\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

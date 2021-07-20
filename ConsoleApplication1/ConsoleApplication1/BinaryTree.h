@@ -5,28 +5,27 @@ using namespace std;
 struct node
 {
 	int data;
-	node* left = NULL;
-	node* right = NULL;
+	node* left = 0;
+	node* right = 0;
 };
 
 class BinaryTree
 {
 private:
-	node* root;
+	node* root = NULL;
+	void _InOrder(node*);
+	void _PreOder(node*);
+	void _PostOder(node*);
+	void _Add(node*&, int);
+	void _Clear(node*&);
 public:
 	BinaryTree(node* = NULL);
+	void Add(int data) { {this->_Add(this->root, data); } };
 	void AddRight(int);
 	void AddLeft(int);
-
-	void PreoOder(node* root)
-	{
-		if (root == NULL)
-		{
-			return;
-
-			cout << root->data << "\t";
-			PreoOder(root->left);
-			PreoOder(root->right);
-		}
-	}
+	void InOder() { {this->_InOrder(this->root); } };
+	void PreOder() { {this->_PreOder(this->root); } };
+	void PostOder() { {this->_PostOder(this->root); } };
+	void Clear() { {this->_Clear(this->root);} };
+	
 };
