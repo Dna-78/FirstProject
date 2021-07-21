@@ -1,3 +1,9 @@
 ﻿  ConsoleApplication1.cpp
-C:\Users\Взрослая академия\source\repos\FirstProject\ConsoleApplication1\ConsoleApplication1\Massive.h(30): warning C4715: 'operator<<': not all control paths return a value
+C:\Users\Взрослая академия\source\repos\FirstProject\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(177,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\source\repos\FirstProject\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(184,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Взрослая академия\source\repos\FirstProject\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(194,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\source\repos\FirstProject\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(193,2): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+C:\Users\Взрослая академия\source\repos\FirstProject\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(263,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Взрослая академия\source\repos\FirstProject\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(270,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Взрослая академия\source\repos\FirstProject\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(264,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   ConsoleApplication1.vcxproj -> C:\Users\Взрослая академия\Source\Repos\FirstProject\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
